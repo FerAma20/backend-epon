@@ -1,0 +1,41 @@
+{
+  "name": "salud",
+  "version": "1.0.0",
+  "description": "Backend for aplication WebApp for CAP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/b2684/backend.git"
+  },
+  "author": "Luis Lopez + Gary Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/b2684/backend/issues"
+  },
+  "homepage": "https://gitlab.com/b2684/backend#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "@sendgrid/mail": "^7.6.0",
+    "axios": "^0.25.0",
+    "base-64": "^1.0.0",
+    "body-parser": "^1.19.1",
+    "crypto-js": "^4.1.1",
+    "cybersource-rest-client": "^0.0.43",
+    "express": "^4.17.2",
+    "express-device": "^0.4.2",
+    "googleapis": "^105.0.0",
+    "jwk-to-pem": "^2.0.5",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.14",
+    "mssql": "^7.3.0",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.11",
+    "pdfmake": "^0.1.72",
+    "randomstring": "^1.2.1",
+    "soap": "^0.43.0",
+    "xml2json": "^0.12.0"
+  }
+}
