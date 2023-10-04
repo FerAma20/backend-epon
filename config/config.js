@@ -1,11 +1,11 @@
 module.exports = {
     nodePort: process.env.port,
-    messageTerminal: 'Backend FOR INFOUTILITY',
+    messageTerminal: 'Backend FOR BOOKSTAR',
     dbUserMS: 'sa' ,
-    dbPasswordMS: 'QaZX+A7SPiKN',
-    dbServerMS: '198.38.89.221',
+    dbPasswordMS: 'NtrD3c123',
+    dbServerMS: 'FERNANDOSASUS\\MSSQLSERVERLOCAL',
     dbPortMS: '1433',
-    dbDatabaseNameMS: 'demo',
+    dbDatabaseNameMS: 'epondb',
     dbMongoStringConnection: process.env.dbMongoStringConnection,
     dbMongoUser: process.env.dbMongoUser,
     dbMongoPassword: process.env.dbMongoPassword,
@@ -100,6 +100,6 @@ module.exports = {
         Medico_Cabina:7,
         Supervisor_Cabina:8,
     },
-    entidad:"INFOUTILITY",
+    entidad:"BOOKSTAR",
     tipo_contrato:"AS"
 }

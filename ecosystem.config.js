@@ -1,7 +1,7 @@
 module.exports = {
     apps : [
         {
-            name: 'ERP API',
+            name: 'EPON API',
             script: 'index.js',
             watch: true,
             instances: 1,
@@ -10,7 +10,7 @@ module.exports = {
             //ignore_watch : ["node_modules", "output"],
             env: {
                 NODE_ENV: 'local',
-                port: 4201,
+                port: 4208,
 
                 dbUserMS: 'app',
                 dbPasswordMS: 'SAGA38gt1979',
