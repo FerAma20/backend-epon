@@ -1,9 +1,9 @@
 module.exports = {
     nodePort: process.env.port,
     messageTerminal: 'Backend FOR BOOKSTAR',
-    dbUserMS: 'sa' ,
+    dbUserMS: 'admin' ,
     dbPasswordMS: 'NtrD3c123',
-    dbServerMS: 'FERNANDOSASUS\\MSSQLSERVERLOCAL',
+    dbServerMS: 'epondb.cfpeazhgzxuv.us-east-2.rds.amazonaws.com',
     dbPortMS: '1433',
     dbDatabaseNameMS: 'epondb',
     dbMongoStringConnection: process.env.dbMongoStringConnection,
